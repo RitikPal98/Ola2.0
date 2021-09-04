@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    /* position:fixed; */
+    width: 100%;
+    z-index: 4;
+    box-shadow: 0 1px 6px #ccc;
+}
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+    background:#222;
+    color: #ccc;
+    height: 34px;
+    padding:0 4% 0 40%;
+    align-items: center;
+}
+.header-top>*{
+    border-right:1px solid #ccc;
+    font-size: 0.84rem;
+    padding: 1px 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header-top>*:hover{
+    color: rgb(130,190,30);
+}
+.header-top>:last-child{
+    border-right: none;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    overflow: hidden;
+    padding: 2px 5% 2px 5%;
+   background-color: white; 
+}
+.ola-logo{
+width: 100%;
+height: 130px;
+}
+.header-bottom-links{
+    display: flex;
+}
+.header-bottom-links>*{
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #444;
+
+}
+.header-bottom-links>*:hover{
+    color: rgb(130,190,30);
+}
+.booking-button{
+    background: rgb(200,225,0);
+    border: none;
+    outline: none;
+}
+.booking-button:hover{
+    background: rgb(185,210,0);
+    color: black;
+}

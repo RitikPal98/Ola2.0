@@ -1,0 +1,151 @@
+.fleet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.tab-content-container-main{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to top, #FDFDFD 0%, #E9E9E9 100%);
+    padding: 0 14px;
+}
+.tabContent{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+
+}
+.tabContent:hover>.tabContent-img>img{
+    transform: translateX(97px);
+}
+
+.tabContent-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex:0.47
+}
+.tabContent-info>:first-child{
+    margin: 0 0 14px 0;
+    color: #333;
+}
+.tabContent-info>:nth-child(2){
+    color:#333;
+    font-size: 17px;
+}
+
+.tabContent-info>p{
+    color: rgba(0, 0, 0, 0.7);
+    margin: 15px 0;
+    line-height: 1.5rem;
+}
+
+
+.tabContent-img>img{
+    width: 100%;
+    max-height: 400px;
+    transition: 700ms ease-in-out;
+}
+.tab-icons{
+    display: flex;
+    padding:10px 10px 10px 0;
+}
+.tab-icons>*{
+    height: 21px;
+    margin-right: 15px;
+}
+
+
+/* tablinks css */
+.fleetTab{
+    display: flex;
+    max-width: 100%;
+    margin:0 11px;
+    overflow-x:scroll;
+    box-sizing: border-box;
+    width: 91%;
+  scroll-behavior: smooth;
+
+}
+.fleetTab::-webkit-scrollbar {
+    width: 0px;
+    height: 0;
+  }
+
+.fleetTab-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 15px;
+    padding: 0 18px;
+
+}
+.fleetTab-link-icon-container{
+    background: white;
+    padding:7px 10px;
+    border-radius: 50%;
+    transition: 250ms ease-in-out;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+
+}
+.fleetTab-link>p{
+    color: #333;
+    font-size: 1.11rem;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-bottom: 21px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.icon2{
+    transition:650ms ease-in-out;
+    transform: translateX(-120px);
+}
+.fleetTab-link:hover>.fleetTab-link-icon-container{
+    background: rgb(205, 220, 0);
+}
+.fleetTab-link:hover>.fleetTab-link-icon-container>.icon2{
+    transform: translateX(1px);
+}
+.fleetTab-link:hover>.fleetTab-link-icon-container>.icon1{
+    display:none;
+}
+
+.tabContent{
+    display: none;
+  }
+.active {
+    background-color: rgb(205, 220, 0);
+
+}
+
+.tab-link-icon-container{
+    display: flex;
+    align-items: center;
+    /* padding: 0 14px; */
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.prev-button,.next-button{
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0,0,0,0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  cursor: pointer;
+}
+.prev-button:hover,.next-button:hover{
+    color:gray;
+    border-color: gray;
+
+}

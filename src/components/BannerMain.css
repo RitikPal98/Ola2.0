@@ -1,0 +1,93 @@
+.bannerMain-container{
+    background: url("https://cms-web.olacabs.com/00000000383.jpg");
+    /* padding-top: 110px; */
+}
+.bannerMain{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 28%, rgba(0,0,0,0.5) 77%);
+    width: 100%;
+    height: 100vh;
+}
+.bannerMain-heading{
+    color: white;
+    margin: 25px 0 4px 0;
+    text-align: center;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+}
+
+/* .cabSearch */
+
+.cabSearch{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 10px 4px 2px 4px;
+    background: rgb(244,244,244);
+    margin-top: 40px;
+    max-width: 400px;
+    margin-left: 60px;
+}
+.cabSearch-top{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.cabSearch-top>*{
+    font-weight: 500;
+    color: #333;
+}
+
+.cabSearch-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.cabSearch-bottom-heading{
+    display: felx;
+    text-align: center;
+    padding: 7px 4px;
+    color: #444;
+    letter-spacing: 1px;    
+    font-size: 0.9rem;
+}
+.cabSearch-bottom-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.cabSearch-bottom-form>*{
+    display: flex;
+    justify-content: space-between;
+    background:#cccc;
+    margin-bottom: 10px;
+    border-radius:4px;
+    padding: 4px 10px;
+    min-width: 350px;
+    outline: none;
+    border: none;
+    justify-items: center;
+    align-items: center;
+    color: #777;
+    font-size: 0.6rem;
+
+}
+#pickup,#when,#drop{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: none;
+    font-size: 0.9rem;
+    color: #333;
+}
+.cabSearch-button{
+    background: rgb(200,225,0);
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 12px 10px;
+    cursor: pointer;
+}
