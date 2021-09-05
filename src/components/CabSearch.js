@@ -1,7 +1,9 @@
 import React from "react";
+import {useHistory} from "react-router-dom";
 // css on bannermain
 
 function CabSearch() {
+  let history = useHistory();
   return (
     <div className="cabSearch">
       <div className="cabSearch-top">
@@ -39,7 +41,7 @@ function CabSearch() {
                 <option>Schedule for later</option>
               </select>
             </label>
-            <button className="cabSearch-button">Search Cabs</button>
+            <button onClick={()=>history.push("/booknow")} className="cabSearch-button">Search Cabs</button>
           </form>
         </div>
       </div>

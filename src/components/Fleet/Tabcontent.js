@@ -12,8 +12,8 @@ function Tabcontent({vid,image,title,headline,info,icon1,icon2,icon3}) {
                <p>{info}</p>
            <div className="tab-icons">
                <img src="/images/ti1.svg" alt="icon"/>
-               <img src="/images/ti1.svg" alt="icon"/>
-               <img src="/images/ti1.svg" alt="icon"/>
+               <img src="/images/ti2.svg" alt="icon"/>
+               <img src="/images/ti3.svg" alt="icon"/>
            </div>
            </div>
         </div>

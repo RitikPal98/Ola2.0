@@ -70,83 +70,83 @@ function buttonClick(e){
     </div>
       <div id="scrollid" className="fleetTab tab">
         <TabLink
-          icon1="/images/tabi1.svg"
-          icon2="/images/tabi11.svg"
+          icon1="images/tabi1.svg"
+          icon2="images/tabi11.svg"
           name="Auto"
           showFleet={showFleet}
           vid="v1"
 
         />
         <TabLink
-          icon1="/images/tabi2.svg"
-          icon2="/images/tabi22.svg"
+          icon1="images/tabi2.svg"
+          icon2="images/tabi22.svg"
           name="Bike"
           showFleet={showFleet}
           vid="v2"
 
         />
         <TabLink
-          icon1="/images/tabi3.svg"
-          icon2="/images/tabi33.svg"
+          icon1="images/tabi3.svg"
+          icon2="images/tabi33.svg"
           name="Share"
           showFleet={showFleet}
           vid="v3"
 
         />
         <TabLink
-          icon1="/images/tabi4.svg"
-          icon2="/images/tabi44.svg"
+          icon1="images/tabi4.svg"
+          icon2="images/tabi44.svg"
           name="Micro"
           showFleet={showFleet}
           vid="v4"
 
         />
         <TabLink
-          icon1="/images/tabi5.svg"
-          icon2="/images/tabi55.svg"
+          icon1="images/tabi5.svg"
+          icon2="images/tabi55.svg"
           name="Mini"
           showFleet={showFleet}
           vid="v5"
 
         />
         <TabLink
-          icon1="/images/tabi6.svg"
-          icon2="/images/tabi66.svg"
+          icon1="images/tabi6.svg"
+          icon2="images/tabi66.svg"
           name="Prime Sedan"
           showFleet={showFleet}
           vid="v6"
         />
         <TabLink
-          icon1="/images/tabi7.svg"
-          icon2="/images/tabi77.svg"
+          icon1="images/tabi7.svg"
+          icon2="images/tabi77.svg"
           name="Prime Play"
           showFleet={showFleet}
           vid="v7"
         />
         <TabLink
-          icon1="/images/tabi8.svg"
-          icon2="/images/tabi88.svg"
+          icon1="images/tabi8.svg"
+          icon2="images/tabi88.svg"
           name="Prime SUV"
           showFleet={showFleet}
           vid="v8"
         />
         <TabLink
-          icon1="/images/tabi9.svg"
-          icon2="/images/tabi99.svg"
+          icon1="images/tabi9.svg"
+          icon2="images/tabi99.svg"
           name="LUX"
           showFleet={showFleet}
           vid="v9"
         />
         <TabLink
-          icon1="/images/tabi10.svg"
-          icon2="/images/tabi1010.svg"
+          icon1="images/tabi10.svg"
+          icon2="images/tabi1010.svg"
           name="E-Rick"
           showFleet={showFleet}
           vid="v10"
         />
         <TabLink
-          icon1="/images/tabi111.svg"
-          icon2="/images/tabi1111.svg"
+          icon1="images/tabi111.svg"
+          icon2="images/tabi1111.svg"
           name="Kaali Peeli "
           showFleet={showFleet}
           vid="v11"
@@ -163,77 +163,77 @@ function buttonClick(e){
       <div className="fleetTab-content-container">
         <Tabcontent
           vid="v1"
-          image="/images/v1.png"
+          image="images/v1.png"
           title="Auto"
           headline="Get an auto at your doorstep"
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town!"
         />
         <Tabcontent
           vid="v2"
-          image="/images/v2.png"
+          image="images/v2.png"
           title="Bike"
           headline="On Time, Every time."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v3"
-          image="/images/v3.png"
+          image="images/v3.png"
           title="Share"
           headline="Eco-friendly rides at pocket-friendly rate"
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v4"
-          image="/images/v4.png"
+          image="images/v4.png"
           title="Micro"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v5"
-          image="/images/v5.png"
+          image="images/v5.png"
           title="Mini"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v6"
-          image="/images/v6.png"
+          image="images/v6.png"
           title="Prime Sedan"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v7"
-          image="/images/v7.png"
+          image="images/v7.png"
           title="Prime Play"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v8"
-          image="/images/v8.png"
+          image="images/v8.png"
           title="Prime SUV"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v9"
-          image="/images/v9.png"
+          image="images/v9.png"
           title="LUX"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v10"
-          image="/images/v10.png"
+          image="images/v10.png"
           title="E-Rick"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
         />
         <Tabcontent
           vid="v11"
-          image="/images/v11.png"
+          image="images/v11.png"
           title="Kaali Peeli"
           headline="Small fare for short rides."
           info="Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this at the most affordable rates in town."
